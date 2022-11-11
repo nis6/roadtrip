@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/roadtrip/static/css/main.c55e7f66.css",
+    "main.js": "/roadtrip/static/js/main.28ff5dd2.js",
+    "static/media/udaipur.jpg": "/roadtrip/static/media/udaipur.d410324eff720e79eb80.jpg",
+    "static/media/explore.svg": "/roadtrip/static/media/explore.73042e27b813b6c1d500be405fbd0785.svg",
+    "static/media/trip.svg": "/roadtrip/static/media/trip.b3baacce23f4a0e8a5f86ce8ba032e41.svg",
+    "static/media/destination.svg": "/roadtrip/static/media/destination.a75acfe54b0454a4646754e86c05f793.svg",
+    "static/media/throughthedesert.svg": "/roadtrip/static/media/throughthedesert.0990b4a5ade4af157a8277f39d516b64.svg",
+    "index.html": "/roadtrip/index.html",
+    "main.c55e7f66.css.map": "/roadtrip/static/css/main.c55e7f66.css.map",
+    "main.28ff5dd2.js.map": "/roadtrip/static/js/main.28ff5dd2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c55e7f66.css",
+    "static/js/main.28ff5dd2.js"
+  ]
+}
