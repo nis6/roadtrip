@@ -1,0 +1,136 @@
+.planning-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: max-content;
+}
+
+.planning-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  width: 65%;
+  min-height: 40vh;
+  max-height: max-content;
+  color: white;
+  background-color: var(--night-black);
+  border-radius: 0 2rem 2rem 0;
+  box-shadow: 2px 2px 15px 4px grey;
+}
+
+.planning-board-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  height: max-content;
+}
+
+.planning-board-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  border: white solid 1px;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 100%;
+  min-height: 200px;
+  max-height: max-content;
+}
+
+.dest-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  color: var(--night-black);
+  border-radius: 1rem;
+  height: 160px;
+  padding: 0.5rem 1rem;
+}
+
+.dest-card:hover {
+  border: solid 1px;
+}
+
+.dest-img {
+  width: 150px;
+  height: 100px;
+}
+
+.add-btn {
+  background-color: var(--primary-blue);
+  border-radius: 1rem;
+  padding: 0.3rem;
+}
+
+.add-btn:hover {
+  border-radius: 1.15rem;
+  background-color: var(--hover-blue);
+  padding: 0.35rem;
+}
+
+.add-btn:active {
+  background-color: var(--primary-blue);
+}
+
+.search-bar {
+  width: 100%;
+  border-radius: 0.7rem;
+  padding: 0.5rem 0.8rem;
+  outline: var(--logo-blue) solid 1px;
+  border: var(--night-black) solid 1px;
+}
+.search-bar:focus {
+  outline: var(--logo-blue) solid 1.5px;
+}
+
+.maps-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 2rem;
+  width: 35%;
+  height: 100%;
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .planning-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .planning-board {
+    order: 2;
+    border-radius: 3rem 3rem 0rem 0rem;
+    width: 96%;
+  }
+  .dest-card {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .maps-board {
+    gap: 1rem;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+  }
+}
+
+.dlt-btn:hover {
+  background-color: var(--cloud-gray);
+}
