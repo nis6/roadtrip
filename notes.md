@@ -1,3 +1,5 @@
+Author Notes:
+- etx
 - adding google maps API for future scope
 - for now just manually add destination names
 - to publish on github pages [link](https://github.com/gitname/react-gh-pages)
