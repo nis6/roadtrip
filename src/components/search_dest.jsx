@@ -1,5 +1,5 @@
 import { AiOutlinePlus } from "react-icons/ai";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function SearchForm(props) {
   const [input, setInput] = useState("");
