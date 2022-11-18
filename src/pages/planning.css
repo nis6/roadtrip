@@ -62,6 +62,10 @@
   height: 100px;
 }
 
+.dest-name {
+  width: 30%;
+}
+
 .add-btn {
   background-color: var(--primary-blue);
   border: solid 1.5px var(--primary-blue);

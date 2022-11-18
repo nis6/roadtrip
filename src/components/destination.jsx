@@ -4,7 +4,7 @@ const Destination = ({ image, name, id, date, time, remove_location }) => {
   return (
     <div className="dest-card">
       {/* <img src={image} className="dest-img" alt="Destination Image" /> */}
-      <p>{name}</p>
+      <div className="dest-name">{name}</div>
       <p>{date}</p>
       <p>{time}</p>
       <button className="dlt-btn" onClick={() => remove_location(id)}>

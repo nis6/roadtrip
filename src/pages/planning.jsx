@@ -40,6 +40,7 @@ class Planning extends React.Component {
     const removedLocations = [...this.state.locations].filter(
       (location) => location.id !== id
     );
+    localStorage.setItem("locations", JSON.stringify(removedLocations));
     this.setState({ locations: removedLocations });
   };
 
