@@ -42,6 +42,7 @@
 
 .dest-card {
   display: flex;
+  font-size: 1.5rem;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -63,29 +64,29 @@
 
 .add-btn {
   background-color: var(--primary-blue);
-  border-radius: 1rem;
-  padding: 0.3rem;
+  border: solid 1.5px var(--primary-blue);
+  padding: 0.5rem 0.8rem;
 }
 
 .add-btn:hover {
-  border-radius: 1.15rem;
   background-color: var(--hover-blue);
-  padding: 0.35rem;
+  border: none;
 }
 
 .add-btn:active {
   background-color: var(--primary-blue);
 }
 
-.search-bar {
+.input-field {
   width: 100%;
+  font-size: 1.3rem;
   border-radius: 0.7rem;
   padding: 0.5rem 0.8rem;
   outline: var(--logo-blue) solid 1px;
   border: var(--night-black) solid 1px;
 }
-.search-bar:focus {
-  outline: var(--logo-blue) solid 1.5px;
+.input-field:focus {
+  outline: var(--logo-blue) solid 2px;
 }
 
 .maps-board {
@@ -102,9 +103,20 @@
 
 form {
   display: flex;
+  flex-direction: column;
   gap: 0.5rem;
   justify-content: center;
   align-items: center;
+}
+
+.input-fields-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.map-img {
+  width: 70%;
 }
 
 @media screen and (max-width: 600px) {
@@ -121,13 +133,15 @@ form {
   }
   .dest-card {
     flex-direction: column;
-    padding: 1rem;
+    height: max-content;
+    gap: 1rem;
+    padding: 1rem 2rem;
   }
   .maps-board {
     gap: 1rem;
     width: 100%;
     height: auto;
-    padding: 2rem;
+    padding: 2rem 1rem;
   }
 }
 
